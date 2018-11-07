@@ -1,0 +1,86 @@
+/*
+ Localizable.strings
+ consumervenice
+ 
+ Created by Miluski, Dane on 9/10/15.
+ Copyright (c) 2015 PayPal. All rights reserved.
+ 
+ General Strings Table for Application.
+ 
+ Any localization that occurs via iOS such as notification localization
+ must be here.
+ */
+"RCM" = "You received %1$@ from %2$@";
+"RQM" = "%1$@ requested %2$@ from you";
+"SND" = "You sent %1$@ to %2$@";
+"PUR" = "You paid %1$@ to %2$@";
+"DEF" = "You have a remote transaction";
+"AAP_PURCH_FMT" = "Are you trying to make a %2$@ payment at %1$@ right now?";
+"AAP_LOGIN_FMT" = "Are you trying to log in from another device right now?";
+//MARK: Send Money - Push Notification
+"pushNotification.baseNotification.viewDetails.button" = "View Details";
+"THX" = "%@ Says Thanks!";
+"pushNotification.baseNotification.cancelView.button" = "Close";
+
+//MARK: Liftoff Notification
+"FMT_LIFTOFF_CARD_ACTIVATION" = "It's been %@ days since your card was mailed to you. Activate it now.";
+"pushnotification.cardactivation.action.activatenow" = "Activate card";
+"pushnotification.cardactivation.action.cardnotreceived" = "I didn't get my card";
+"pushnotification.cardactivation.input.placeholder" = "Expiration date (MM/YY)";
+"pushnotification.cardactivation.input.done" = "Done";
+
+"FMT_LIFTOFF_MANUAL_REVIEW_COMPLETE" = "We reviewed your information and everything looks good. Now, checkout some new features!";
+"pushnotification.manualcip.action.details" = "See Details";
+"pushnotification.manualcip.action.deposit" = "View Direct Deposit Form";
+"pushnotification.manualcip.action.goal" = "Create a New Goal";
+
+"FMT_LIFTOFF_CHECK_DEPOSIT_SUCCESS_DAYS" = "%1$@ We cashed the check you sent us on %2$@ and the money has been added to your PayPal account.";
+"FMT_LIFTOFF_CHECK_DEPOSIT_SUCCESS_MINUTES" = "%1$@ We cashed your check and added the money to your Paypal account.";
+"FMT_LIFTOFF_CHECK_DEPOSIT_FAILURE" = "Your check couldn't be processed. Tap here for more information on what to do next.";
+"FMT_LIFTOFF_BAL_PPCASH_ADD" = "%1$@ You added Cash to your PayPal account.";
+"LIFTOFF_DIRECT_DEPOSIT_SUCCESS" = "Direct deposit received from %1$@";
+
+"FMT_LIFTOFF_ATM_WITHDRAWAL" = "You withdrew %1$@ with your PayPal Cash Card. Your current PayPal balance is %2$@";
+"FMT_LIFTOFF_PPCC_TRANSACTION_SALE" = "You paid %1$@ to %2$@. Your available PayPal balance is %3$@";
+"FMT_LIFTOFF_PPCC_TRANSACTION_CAPTURE" = "%2$@ has completed your transaction for %1$@. Your available PayPal balance is %3$@";
+"FMT_LIFTOFF_PPCC_TRANSACTION_REFUND" = "You received a refund of %2$@ from %1$@. Your available PayPal balance is %3$@.";
+"FMT_LIFTOFF_PPCC_TRANSACTION_AUTH_WITH_AUTO_TOPUP" = "You paid %1$@ to %2$@. Your available PayPal balance is %3$@";
+"FMT_LIFTOFF_PPCC_TRANSACTION_CAPTURE_WITH_AUTO_TOPUP" = "%2$@ has completed your transaction for %1$@. Your available PayPal balance is %3$@";
+"FMT_LIFTOFF_PPCC_TRANSACTION_AUTH" = "You paid %1$@ to %2$@. Your available PayPal balance is %3$@";
+"FMT_LIFTOFF_PPCC_TRANSACTION_REVERSAL" = "Your transaction at %1$@ for %2$@ didn't go through and was refunded to your PayPal account. Your available PayPal balance is %3$@.";
+
+"FMT_LIFTOFF_ATM_WITHDRAWAL_NO_BALANCE" = "You withdrew %1$@ with your PayPal Cash Card.";
+"FMT_LIFTOFF_PPCC_TRANSACTION_SALE_NO_BALANCE" = "You paid %1$@ to %2$@.";
+"FMT_LIFTOFF_PPCC_TRANSACTION_CAPTURE_NO_BALANCE" = "%2$@ has completed your transaction for %1$@.";
+"FMT_LIFTOFF_PPCC_TRANSACTION_REFUND_NO_BALANCE" = "You received a refund of %2$@ from %1$@.";
+"FMT_LIFTOFF_PPCC_TRANSACTION_AUTH_WITH_AUTO_TOPUP_NO_BALANCE" = "You paid %1$@ to %2$@.";
+"FMT_LIFTOFF_PPCC_TRANSACTION_CAPTURE_WITH_AUTO_TOPUP_NO_BALANCE" = "%2$@ has completed your transaction for %1$@.";
+"FMT_LIFTOFF_PPCC_TRANSACTION_AUTH_NO_BALANCE" = "You paid %1$@ to %2$@.";
+"FMT_LIFTOFF_PPCC_TRANSACTION_REVERSAL_NO_BALANCE" = "Your transaction at %1$@ for %2$@ didn't go through and was refunded to your PayPal account.";
+
+"FMT_LIFTOFF_CARD_RETURNED" = "Your PayPal Cash Card was returned to us. Confirm your address so we can resend your card.";
+"FMT_LIFTOFF_CARD_RETURNED_SECOND_ATTEMPT" = "Your PayPal Cash Card was returned to us for the second time. Call Customer Support at %1$@ so we can send your card.";
+"pushNotification.cardreturn.call.button" = "Call Now";
+
+"FMT_LIFTOFF_LOW_BAL_THRESHOLD" = "Your PayPal balance has dropped below %1$@. Add money so you have enough to cover your future purchases.";
+"FMT_LIFTOFF_LOW_BAL_THRESHOLD_REMINDER" = "Low balance: Your PayPal balance is %2$@. Add money so you have enough to cover your future purchases.";
+
+"FMT_LIFTOFF_CASHOUT_SUCCESS" = "%4$@ You withdrew %2$@ at %1$@. Your balance is %3$@";
+
+// MARK: Invoice Push Notifications
+"INV_REC" = "%@ sent you an invoice.";
+"INV_REM" = "%@ sent you a reminder to pay your invoice.";
+"INV_UPDT" = "%@ sent you an updated invoice.";
+
+//MARK: Shipping Push Notifications
+"SHIPMENT_MANIFEST" = "Your purchase from %@ has shipped. 🚚";
+"SHIPMENT_SHIPPED" = "Your purchase from %@  was delivered. 🚚";
+"SHIPMENT_OUT_DELIVERY" = "Your purchase from %@ is out for delivery. 🚚";
+"SHIPMENT_IN_TRANSIT" = "Your purchase from %@ is in transit. 🚚";
+"SHIPMENT_EXCEPTION" = "Your purchase from %@ may be delayed. 🚚";
+
+// MARK: Secure Message Center - Push Notification
+"SMC_MESSAGE_RECEIVED" = "New messages are waiting for you";
+
+// MARK: Activity - Push Notification
+"REFUND_RECEIVED" = "You should've received a refund of %1$@ today.";

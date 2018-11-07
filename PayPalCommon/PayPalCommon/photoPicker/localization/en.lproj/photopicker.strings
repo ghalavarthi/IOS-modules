@@ -1,0 +1,17 @@
+/* 
+  photopicker.strings
+  consumervenice
+
+  Created by Behera, Subhransu on 7/7/15.
+  Copyright (c) 2015 PayPal. All rights reserved.
+*/
+
+"photopicker.actionsheet.title" = "Change Profile Picture";
+"photopicker.actionsheet.cancel.button" = "Cancel";
+"photopicker.actionsheet.takephoto.button" = "Take new photo";
+"photopicker.actionsheet.chooseexisting.button" = "Choose existing photo";
+"photopicker.actionsheet.deletephoto.button" = "Delete photo";
+"photopicker.actionsheet.removephoto.button" = "Remove photo";
+"photopicker.actionsheet.camera.agree.alert" = "Settings";
+"photopicker.actionsheet.camera.dismiss.alert" = "Cancel";
+"photopicker.actionsheet.camera.message.alert" = "In order to use camera, PayPal needs you to provide permissions to use camera.";

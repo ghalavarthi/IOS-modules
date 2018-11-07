@@ -1,0 +1,54 @@
+/* 
+  veniceCommon.strings
+  consumervenice
+
+  Created by Kori, Hiroshi on 7/29/15.
+  Copyright (c) 2015 PayPal. All rights reserved.
+*/
+
+// temporary contents. official ones needs to be provided from designer.
+"veniceCommon.alert.unknownError.title" = "Sorry about that";
+"veniceCommon.alert.unknownError.message" = "We’re having trouble showing you that info right now. Try again in a minute or two.";
+"veniceCommon.alert.unknownError.dismiss" = "OK";
+"veniceCommon.alert.unknownError.retry" = "Retry";
+"veniceCommon.alert.unknownError.cancel" = "Cancel";
+"veniceCommon.alert.unknownError.allow" = "Allow";
+"veniceCommon.alert.unknownError.deny" = "Deny";
+"veniceCommon.errorBanner.closeButton.accessibilityLabel" = "Cancel error message";
+
+
+// MARK: VeniceWebView
+"veniceCommon.webview.failurealert.title" = "Error Loading This Page";
+"veniceCommon.webview.failurealertcancel.button" = "OK";
+
+// MARK: VeniceThreeDSWebView
+"veniceCommon.threedswebview.overlay.otp.header" = "Enter your code";
+"veniceCommon.threedswebview.overlay.otp.message" = "Please enter the one-time code that was sent to your device.";
+"veniceCommon.threedswebview.overlay.password.header" = "Enter your 3D Secure PIN";
+"veniceCommon.threedswebview.overlay.password.message" = "Use the code provided by your card issuer.";
+"veniceCommon.threedswebview.overlay.button.title" = "Submit";
+"veniceCommon.threedswebview.failurealert.passwordinjection.title" = "Error in Submitting Password";
+"veniceCommon.threedswebview.failurealert.passwordinjection.button" = "Ok";
+
+
+// Keypad
+"common.keyPad.decimalButton.accessibilityLabel" = "Double Zeros";
+"common.keyPad.backspaceButton.accessibilityLabel" = "Backspace";
+
+
+// Quick Actions
+"veniceCommon.quickActions.sendMoney" = "Send Money";
+"veniceCommon.quickActions.requestMoney" = "Request Money";
+"veniceCommon.quickActions.viewActivity" = "View Activity";
+
+// Checkbox Accessibility
+"checkbox.accessibility.selected" = "selected";
+"checkbox.accessibility.notselected" = "not selected";
+
+//InfiniteScrolling error message
+"veniceCommon.infiniteScrollerUI.errorMessage" = "You're not connected to the internet.";
+"veniceCommon.infiniteScrollerUI.errorRetryButtonText" = "Retry";
+
+//Linear Pan Image View
+"veniceCommon.linearPanImageView.dragLegend" = "Drag to reposition";
+

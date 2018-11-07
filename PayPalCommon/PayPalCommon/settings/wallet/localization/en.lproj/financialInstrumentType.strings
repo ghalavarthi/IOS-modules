@@ -1,0 +1,17 @@
+/* 
+  financialInstrumentType.strings
+  consumervenice
+
+  Created by Ika, Joan on 11/17/15.
+  Copyright © 2015 PayPal. All rights reserved.
+*/
+
+// MARK: Bank
+
+"financialInstrumentType.bank.checking" = "Checking";
+"financialInstrumentType.bank.savings" = "Savings";
+
+// MARK: Card
+
+"financialInstrumentType.card.credit" = "Credit";
+"financialInstrumentType.card.debit" = "Debit";

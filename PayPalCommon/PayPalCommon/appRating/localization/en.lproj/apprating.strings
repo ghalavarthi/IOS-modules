@@ -1,0 +1,5 @@
+// Strings used for the App Rating prompt
+"ratings_alert_title" = "Like the app so far?\nYour feedback is always appreciated.";
+"ratings_alert_action_rate" = "Rate the App";
+"ratings_alert_action_defer" = "Not Now";
+"ratings_alert_action_ignore" = "No Thanks";

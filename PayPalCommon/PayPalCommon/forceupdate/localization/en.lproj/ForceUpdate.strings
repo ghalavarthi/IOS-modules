@@ -1,0 +1,11 @@
+/* 
+  ForceUpdate.strings
+  consumervenice
+
+  Created by Nebu, Cyriac on 12/21/15.
+  Copyright © 2015 PayPal. All rights reserved.
+*/
+ 
+"forceupdate.home.header" = "Get the latest PayPal app";
+"forceupdate.home.message" = "It's time to update your app so you have all the latest features.";
+"forceupdate.home.button" = "Update Your App";

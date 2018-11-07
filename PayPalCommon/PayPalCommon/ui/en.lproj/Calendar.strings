@@ -1,0 +1,13 @@
+/* 
+  Calendar.strings
+  consumervenice
+
+  Created by Medcharla, Kaushik(AWF) on 6/23/16.
+  Copyright © 2016 PayPal. All rights reserved.
+*/
+
+// L10N-CREDIT-START
+"calendar.duedate.label.title" = "DUE - %1$@";
+"calendar.noDuedate.label.title" = "DUE";
+"calendar.today.label.title" = "Today";
+// L10N-CREDIT-END
